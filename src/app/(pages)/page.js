@@ -2,6 +2,7 @@ import Header from "@/components/GlobalComponents/Header/Header";
 import CategoriesContainer from "@/components/Home/CategoriesContainer";
 import Hero from "@/components/Home/Hero";
 import NewsContainer from "@/components/Home/NewsContainer";
+import InspirationContainer from "@/components/Home/InspirationContainer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <NewsContainer />
       <CategoriesContainer />
+      <InspirationContainer />
     </div>
   );
 }
