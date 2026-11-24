@@ -1,9 +1,15 @@
-import Menu from "@/components/GlobalComponents/Header/Menu";
+import Header from "@/components/GlobalComponents/Header/Header";
+import SubHero from "@/components/GlobalComponents/SubHero";
+import ProductSection from "@/components/ProductSite/ProductSection";
+import ProductSiteCategoriesContainer from "@/components/ProductSite/ProductSiteCategoriesContainer";
 
 export default function ProductSite() {
   return (
     <div>
-      <h1>Product Site</h1>
+      <Header />
+      <SubHero />
+      <ProductSiteCategoriesContainer />
+      <ProductSection />
     </div>
   );
 }
