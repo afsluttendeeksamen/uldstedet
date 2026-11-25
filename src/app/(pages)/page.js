@@ -3,6 +3,7 @@ import CategoriesContainer from "@/components/Home/CategoriesContainer";
 import Hero from "@/components/Home/Hero";
 import NewsContainer from "@/components/Home/NewsContainer";
 import InspirationContainer from "@/components/Home/InspirationContainer";
+import VisitUsContainer from "@/components/Home/VisitUsContainer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <NewsContainer />
       <CategoriesContainer />
       <InspirationContainer />
+      <VisitUsContainer />
     </div>
   );
 }
